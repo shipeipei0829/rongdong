@@ -1,0 +1,17 @@
+input,
+textarea {
+    -webkit-user-select: auto!important;
+    user-select: auto!important;
+}
+
+input[type='text']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+textarea:focus {
+    /* color: rgb(60, 0, 248); */
+    /* 光标的颜色*/
+    /* text-shadow: 0px 0px 0px #d60b0b; */
+    /* 文本颜色 */
+    /* -webkit-text-fill-color: transparent; */
+}

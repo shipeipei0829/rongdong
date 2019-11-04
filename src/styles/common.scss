@@ -1,0 +1,339 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+body,
+input,
+textarea {
+  color: #444;
+  font: 400 0.28rem/1.625 'Arial', 'Helvetica', 'Microsoft YaHei', '微软雅黑',
+    'SimHei', '黑体', 'SimSun', '宋体';
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+  color: #019ff1;
+  text-decoration: none;
+  /*transition: all .4s;*/
+}
+
+/*a:hover { text-decoration: underline; }*/
+
+* {
+  /*transition: color .4s,border-color .4s,box-shadow .4s;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:hover {
+  /*transition: color .4s,border-color .4s,box-shadow .4s;*/
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  line-height: normal;
+}
+
+input[type='button'],
+input[type='checkbox'],
+input[type='submit'],
+button,
+label {
+  cursor: pointer;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+input[type='text'],
+input[type='password'],
+textarea {
+  border: 1px solid #eee;
+  outline: none;
+}
+
+input[type='button'],
+input[type='submit'],
+input[type='reset'] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.none {
+  display: none;
+}
+
+.ohe {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.no-select {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.overHide {
+  overflow: hidden;
+}
+
+.tc {
+  text-align: center;
+}
+
+.mb_s {
+  margin-bottom: 0.2rem;
+}
+
+.mb_m {
+  margin-bottom: 0.26rem;
+}
+
+.mb_b {
+  margin-bottom: 0.32rem;
+}
+
+.mr_s {
+  margin-right: 0.2rem;
+}
+
+.mr_m {
+  margin-right: 0.26rem;
+}
+
+.mr_b {
+  margin-right: 0.32rem;
+}
+
+.mt_s {
+  margin-top: 0.2rem;
+}
+
+.mt_m {
+  margin-top: 0.26rem;
+}
+
+.mt_b {
+  margin-top: 0.32rem;
+}
+
+.ml_s {
+  margin-left: 0.2rem;
+}
+
+.ml_m {
+  margin-left: 0.26rem;
+}
+
+.ml_b {
+  margin-left: 0.32rem;
+}
+
+.pt_m {
+  padding-top: 0.26rem;
+}
+
+.pl_s {
+  padding-left: 0.2rem;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.borderB {
+  border-bottom: 1px solid #dadada;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.allHeight {
+  min-height: 11rem;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.radiosmall {
+  -webkit-border-radius: 0.05rem;
+  -moz-border-radius: 0.05rem;
+  -ms-border-radius: 0.05rem;
+  -o-border-radius: 0.05rem;
+  border-radius: 0.05rem;
+}
+
+.radioImg,
+.radioImg img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.radioImg img,
+.defaultImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.bbox {
+  width: 110%;
+}
+
+.nomore {
+  color: #aaa;
+  font-size: 0.24rem;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.mlr {
+  margin: 0 0.1rem;
+}

@@ -1,0 +1,125 @@
+  .loginwap{
+    position: relative;
+    height: 100vh;
+  }
+  .loginwap .btnwap{
+    position: absolute;
+    width: 100%;
+    top: 8.84rem;
+
+  }
+  .loadicon{
+    border-radius: 50%;
+    font-size: .24rem;
+    background:#fff;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 1.9rem;
+    border:.006rem solid #d1ffec;
+    left: 50%;
+    margin-left: -1rem;
+  }
+  .login1{
+    margin-bottom: 1.4rem;
+  }
+  .conwap{
+    width: 9.80rem;
+    height: 11.62rem;
+    box-shadow:0px .24rem 1.78rem 0px rgba(116,116,116,0.3);
+    border-radius:.66rem;
+    position: absolute;
+    top: 5.4rem;
+    left: 50%;
+    margin-left: -4.9rem;
+    z-index: 9;
+    background: #fff;
+    box-sizing: border-box;
+    padding-top: .84rem;
+    padding-left: .74rem;
+    padding-right: .74rem;
+  }
+  .inputbutton{
+    display: flex;
+    padding:.2rem .4rem;
+    border-bottom: .02rem solid #E5E5E5;
+  }
+  .loginbg{
+      position: absolute;
+      width: 100%;
+  }
+  .loginwap .van-cell{
+      border: none;
+      padding: 0;
+      padding-left: .3rem;
+  }
+  .loginwap input[type='text'], .loginwap input[type='password']{
+      border: none;
+  }
+
+/*登录注册页面*/
+  .inputbut{
+    margin-top: .5rem;
+  }
+  .btnlog{
+    font-size: .36rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+  }
+  .fl.btnlog{
+    color: #0DA786
+  }
+  .fr.btnlog{
+    color: #B0B0B0
+  }
+  .btnswap{
+    height: 2.76rem;
+    padding-top: .7rem;
+    box-sizing: border-box;
+  }
+  .border{
+    border-top:2px solid #EEE;
+    width:7.28rem;
+    position: relative;
+    margin: 0 auto;
+  }
+  .border span{
+    font-size: .38rem;
+    color: #ACACAC;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 0 .1rem
+  }
+  .border .lognlogo{
+    margin-top: .9rem;
+    display: flex
+  }
+  .border .lognlogo b{
+    flex: auto
+  }
+  .border .lognlogo img{
+    width: .9rem;
+    height: .9rem;
+  }
+  .yzmwap{
+    position: relative; 
+  }
+  .yzmwap .getyzmtext{
+    font-size: .36rem;
+    color: #0DA786;
+    position: absolute;
+    right: .2rem;
+    bottom: .26rem;
+  }
+  /*忘记密码*/
+  .paswdwap{
+    padding: 0 1.3rem;
+  }
+  .paswdwap .btnswap{
+    margin-top: 1.1rem;
+  }
